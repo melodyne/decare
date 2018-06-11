@@ -19,15 +19,18 @@ function decare(attrData) {
         var tmp = [];
 
         // 结果与下一个集合计算笛卡尔积
-        $.each(result,function(k,v){
-            // 上层匹配结果
-            var upper = v;
-            $.each(attrData[i+1],function(kay,val){
-                upper.push(val);
-                tmp.push(upper);
-            });
-        });
+            $.each(result,function(k,v){
+                $.each(attrData[i+1],function(kay,val){
 
+                    var upper = [];// 上层匹配结果
+                    $.each(v,function(kk,vv){
+                        upper.push(vv);
+                    });
+
+                    upper.push(val);
+                    tmp.push(upper);
+                });
+            });
         // 将笛卡尔积写入结果
         result = tmp;
     }
