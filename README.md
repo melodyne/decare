@@ -22,7 +22,7 @@ js笛卡尔积算法
 [
   [
     {"attr_id":1,"attr_name":"黄色"},
-    {"attr_id":1,"attr_name":"8G"},
+    {"attr_id":2,"attr_name":"8G"},
     {"attr_id":4,"attr_name":"收到"},
   ],
   [
