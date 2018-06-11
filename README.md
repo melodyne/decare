@@ -5,14 +5,14 @@ js笛卡尔积算法
 ```
 [
   [
-    {"attr_id":"黄色","attr_name":"黄色"}
+    {"attr_id":1,"attr_name":"黄色"}
   ],
   [
-    {"attr_id":"8G","attr_name":"8G"},
-    {"attr_id":"32G","attr_name":"32G"}
+    {"attr_id":2,"attr_name":"8G"},
+    {"attr_id":3,"attr_name":"32G"}
   ],
   [
-    {"attr_id":"收到","attr_name":"收到"}
+    {"attr_id":4,"attr_name":"收到"}
   ]
 ]
 ```
@@ -21,14 +21,14 @@ js笛卡尔积算法
 ```
 [
   [
-    {"attr_id":"黄色","attr_name":"黄色"},
-    {"attr_id":"8G","attr_name":"8G"},
-    {"attr_id":"收到","attr_name":"收到"},
+    {"attr_id":1,"attr_name":"黄色"},
+    {"attr_id":1,"attr_name":"8G"},
+    {"attr_id":4,"attr_name":"收到"},
   ],
   [
-    {"attr_id":"黄色","attr_name":"黄色"},
-    {"attr_id":"32G","attr_name":"32G"},
-    {"attr_id":"收到","attr_name":"收到"},
+    {"attr_id":1,"attr_name":"黄色"},
+    {"attr_id":3,"attr_name":"32G"},
+    {"attr_id":4,"attr_name":"收到"},
   ]
 ]
 ```
