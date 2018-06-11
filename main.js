@@ -20,9 +20,11 @@ function decare(attrData) {
 
         // 结果与下一个集合计算笛卡尔积
         $.each(result,function(k,v){
+            // 上层匹配结果
+            var upper = v;
             $.each(attrData[i+1],function(kay,val){
-                v.push(val);
-                tmp.push(v);
+                upper.push(val);
+                tmp.push(upper);
             });
         });
 
