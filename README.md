@@ -37,6 +37,5 @@ js笛卡尔积算法
 ![效果图](https://github.com/melodyne/decare/blob/master/goods.gif?raw=true)
 
 ### 说明
-这里只是核心算法代码，抛砖引玉
-具体的还得看你项目业务逻辑进行调整
+这里只是核心算法代码，抛砖引玉，如果对你有帮助给作者一个start，就是对作者的最大支持！
 
